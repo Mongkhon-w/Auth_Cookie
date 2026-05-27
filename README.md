@@ -72,9 +72,7 @@ node server.js
 * **Header:** `Authorization: <วาง_accessToken_ตรงนี้>`
 
 **4. Refresh Token** (`POST http://localhost:3000/api/refresh`)
-* **Body:** {
-
-            } ไม่ต้องส่งข้อมูลใดๆ (ปล่อยว่าง)
+* **Body:** { } ไม่ต้องส่งข้อมูลใดๆ (ปล่อยว่าง)
 * **การทำงาน:** ระบบจะอ่านค่า `refreshToken` จาก HttpOnly Cookie ที่ถูกแนบมาโดยอัตโนมัติ และคืนค่า `accessToken` ใบใหม่กลับมาให้แบบ JSON
 
 **5. Logout** (`POST http://localhost:3000/api/logout`)
