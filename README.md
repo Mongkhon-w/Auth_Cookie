@@ -16,7 +16,7 @@
 
 ```bash
 npm init -y
-npm install express jsonwebtoken bcryptjs body-parser dotenv
+npm install express jsonwebtoken bcryptjs body-parser dotenv cookie-parser
 npm install prisma@latest @prisma/client@latest @prisma/adapter-mariadb mariadb
 npm install -D @types/node tsx
 npx prisma init
